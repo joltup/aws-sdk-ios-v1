@@ -1,6 +1,6 @@
 {
   "name": "AWSiOSSDK",
-  "version": "1.7.0",
+  "version": "1.7.1",
   "license": "Apache License, Version 2.0",
   "summary": "Amazon Web Services SDK for iOS.",
   "homepage": "http://aws.amazon.com/sdkforios",
