@@ -1,6 +1,6 @@
 {
   "name": "AWSiOSSDK",
-  "version": "1.7.1",
+  "version": "1.7.0",
   "license": "Apache License, Version 2.0",
   "summary": "Amazon Web Services SDK for iOS.",
   "homepage": "http://aws.amazon.com/sdkforios",
@@ -8,15 +8,15 @@
     "Amazon Web Services": "amazonwebservices"
   },
   "source": {
-    "git": "https://github.com/joltup/aws-sdk-ios-v1.git",
-    "tag": "1.7.1"
+    "git": "https://github.com/aws/aws-sdk-ios-v1.git",
+    "tag": "1.7.0"
   },
   "description": "The AWS SDK for iOS provides a library, code samples, and documentation for developers to build connected mobile applications using AWS.",
   "platforms": {
     "ios": null
   },
   "header_mappings_dir": "src/include",
-  "prefix_header_contents": "#ifdef __OBJC__\n#import \"AmazonLogger.h\"\n#import \"AmazonErrorHandler.h\"\n#endif\n##define AWS_MULTI_FRAMEWORK 1",
+  "prefix_header_contents": "#ifdef __OBJC__\n#import \"AmazonLogger.h\"\n#import \"AmazonErrorHandler.h\"\n#endif\n",
   "requires_arc": false,
   "subspecs": [
     {
